@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="first mt-5">
+            <form action="#" name="calculator" class="col">
+                
+                <table class="input">
+                    <tr>
+                        <td colspan="4>"><input type="text" class="display" name="display" placeholder="0" id="display"><br></td>
+                    </tr>
+                    <tr>
+                      <td><input type="button" class="btn1 btn-primary"  value="AC" id="clear"></td>  
+                      <td><input type="button" class="btn1 btn-primary" value="&radic;" onclick="document.calculator.display.value = Math.pow(calculator.display.value,1/2)"></td>
+                      <td><input type="button" class="btn1 btn-primary" value="%" onclick="document.calculator.display.value+='%'"></td>  
+                      <td><input type="button" class="btn2 btn-primary" value="÷" onclick="document.calculator.display.value+='/'"></td> 
+                    </tr>
+                  <tr>
+                    <td><input type="button" class="btn btn-primary" value="7" onclick="document.calculator.display.value+= value"></td>
+                    <td><input type="button" class="btn btn-primary" value="8" onclick="document.calculator.display.value+= value"></td>
+                    <td><input type="button" class="btn btn-primary" value="9" onclick="document.calculator.display.value+= value"></td>
+                    <td><input type="button" class="btn2 btn-primary" value="×" onclick="document.calculator.display.value+='*'"></td>
+                 </tr>
+                 <tr>
+                    <td><input type="button" class="btn btn-primary" value="4" onclick="document.calculator.display.value+= value"></td>
+                    <td><input type="button" class="btn btn-primary" value="5" onclick="document.calculator.display.value+= value"></td>
+                    <td><input type="button" class="btn btn-primary" value="6" onclick="document.calculator.display.value+= value"></td>
+                    <td><input type="button" class="btn2 btn-primary" value="-" onclick="document.calculator.display.value+='-'"></td>
+                 </tr>
+                 <tr>
+                    <td><input type="button" class="btn btn-primary" value="1" onclick="document.calculator.display.value+= value"></td>
+                    <td><input type="button" class="btn btn-primary" value="2" onclick="document.calculator.display.value+= value"></td>   
+                    <td><input type="button" class="btn btn-primary" value="3" onclick="document.calculator.display.value+= value"></td>
+                   <td><input type="button" class="btn2 btn-primary" value="+" onclick="document.calculator.display.value+='+'"></td>
+                 </tr>
+                 <tr>
+                    <td colspan="2>"><input type="button" class=" btn-primary" id="equal" value="0" onclick="document.calculator.display.value+= value"></td>
+                    <td><input type="button" class="btn btn-primary" value="." onclick="document.calculator.display.value+='.'"></td>
+                    <td><input type="button" class="btn2 btn-primary" value="=" onclick="document.calculator.display.value = eval(calculator.display.value)"></td>
+                    </tr>
+                </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--                     
+                    <input type="button" class="btn1 btn-primary" value="AC" id="clear" onclick="document.calculator.display.value = value=' ' ">
+                    <input type="button" class="btn1 btn-primary" value="&radic;" onclick="document.calculator.display.value = Math.pow(calculator.display.value,1/2)">
+                    <input type="button" class="btn1 btn-primary" value="%" onclick="document.calculator.display.value+='/%'">
+                    <input type="button" class="btn2 btn-primary" value="÷" onclick="document.calculator.display.value+='/'"><br><br>
+
+                    <input type="button" class="btn btn-primary" value="7" onclick="document.calculator.display.value+= value">
+                    <input type="button" class="btn btn-primary" value="8" onclick="document.calculator.display.value+= value">
+                    <input type="button" class="btn btn-primary" value="9" onclick="document.calculator.display.value+= value">
+                    <input type="button" class="btn2 btn-primary" value="x" onclick="document.calculator.display.value+='*'"><br><br>
+
+                    <input type="button" class="btn btn-primary" value="4" onclick="document.calculator.display.value+= value">
+                    <input type="button" class="btn btn-primary" value="5" onclick="document.calculator.display.value+= value">
+                    <input type="button" class="btn btn-primary" value="6" onclick="document.calculator.display.value+= value">
+                    <input type="button" class="btn2 btn-primary" value="-" onclick="document.calculator.display.value+='-'"><br><br>
+
+                    <input type="button" class="btn btn-primary" value="1" onclick="document.calculator.display.value+= value">
+                    <input type="button" class="btn btn-primary" value="2" onclick="document.calculator.display.value+= value">   
+                    <input type="button" class="btn btn-primary" value="3" onclick="document.calculator.display.value+= value">
+                    <input type="button" class="btn2 btn-primary" value="+" onclick="document.calculator.display.value+='+'"><br><br>
+
+                    <input type="button" class="btn3 btn-primary" value="0" onclick="document.calculator.display.value+= value">
+                    <input type="button" class="btn btn-primary" value="." onclick="document.calculator.display.value+='.'">
+                    <input type="button" class="btn2 btn-primary" value="=" onclick="document.calculator.display.value = eval(calculator.display.value)"><br><br> -->
+
+
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="kalkulator.js"></script>
+</body>
+</html>
